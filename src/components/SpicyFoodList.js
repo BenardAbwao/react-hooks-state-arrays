@@ -13,11 +13,6 @@ function SpicyFoodList() {
   }
 
   
-
-  // function handleClick(id){
-  //   const newFoodArray = foods.filter((food) => food.id !== id);
-  //   setFoods (newFoodArray);
-  // }
   function handleFilterChange(event) {
     setFilterBy(event.target.value);
   }
